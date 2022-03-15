@@ -1,0 +1,14 @@
+body {
+  background-color: white;
+  border: lightgrey 1px solid;
+}
+
+h1 {
+  text-align: center;
+  padding: 10em;
+  border: lightgrey 1px solid;
+  margin: 1em;
+  color: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
