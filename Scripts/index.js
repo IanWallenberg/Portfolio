@@ -5,8 +5,6 @@
 
 //This section is for the slideshow!
 
-
-
 var slideIndex = 1;
 showSlides(slideIndex);
 

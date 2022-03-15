@@ -1,27 +1,19 @@
-h1 {
-  text-align: center;
-  padding: 10em;
-  border: lightgrey 1px solid;
-  margin: 1em;
-  color: grey;
-}
-
 .mySlides {
   display: none;
-}
-
-/*This is being overriden by the JS in HTML in
-the bottom, because the HTML loaded before the JS, but now it's reversed */
+} /*This is being overriden by the JS in HTML in
+  the bottom, because the HTML loaded before the JS, but now it's reversed */
 img {
   vertical-align: middle;
 }
 
+//Slideshow container
 .slideshow-container {
   max-width: 500px;
   position: relative;
   margin: auto;
 }
 
+//Next & previous buttons, for changing the pointer and small animations
 .prev,
 .next {
   cursor: pointer;
@@ -38,6 +30,7 @@ img {
   user-select: none;
 }
 
+//Position the "next button" to the right
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -60,6 +53,7 @@ img {
   text-align: center;
 }
 
+// Number text (1/5 etc) *
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -68,6 +62,7 @@ img {
   top: 0;
 }
 
+// The dots/bullets/indicators *
 .dot {
   cursor: pointer;
   height: 15px;
@@ -100,6 +95,8 @@ img {
     opacity: 1;
   }
 }
+
+//For the CSS animation
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -108,17 +105,12 @@ img {
     opacity: 1;
   }
 }
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev,
-.next,
-.text {
+  .next,
+  .text {
     font-size: 11px;
   }
 }
-body {
-  background-color: white;
-  border: lightgrey 1px solid;
-}
-
-/*# sourceMappingURL=style.css.map */
