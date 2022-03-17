@@ -1,7 +1,10 @@
 @import "./Styles/header.scss";
 @import "./Styles/slideshow.scss";
 
+html,
 body {
   background-color: white;
   border: lightgrey 1px solid;
+  height: 100%;
+  margin: 0;
 }
