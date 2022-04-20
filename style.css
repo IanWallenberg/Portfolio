@@ -1,21 +1,188 @@
-.frame {
-  text-align: center;
-  border: lightgrey 1px solid;
-  margin: 2em;
-  color: grey;
+.header {
+  background-color: #ffffff;
+  height: 15vh;
+  color: darkgrey;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  margin: 15px;
+}
+
+.title {
+  margin: 45px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #100f0f;
+  position: absolute;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 15em;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li:hover {
+  color: black;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
-  color: blanchedalmond;
-  text-align: center;
+  font-size: 50px;
+  margin: 0;
 }
 
-html,
-body {
-  background-color: white;
-  border: lightgrey 1px solid;
+.header-text {
+  margin-left: 20px;
+  margin-bottom: 200px;
+}
+
+.header-area {
+  display: flex;
   height: 100%;
-  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  width: 130px;
+  height: 50px;
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+.button:active {
+  background-color: white;
+  color: #000000;
+}
+
+.icon {
+  display: none;
+}
+
+@media (max-width: 540px) {
+  li {
+    display: none;
+  }
+
+  .icon {
+    display: flex;
+  }
+}
+footer {
+  height: 1em;
+  border-top: 0.5px solid darkgrey;
+  background-color: #eeeeee;
+}
+
+.social-media-links {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+
+.socials {
+  margin: 20px;
+}
+
+svg {
+  -webkit-filter: invert(60%);
+  /* safari 6.0 - 9.0 */
+  filter: invert(60%);
+}
+
+svg:hover {
+  -webkit-filter: invert(0%);
+  /* safari 6.0 - 9.0 */
+  filter: invert(0%);
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 1em;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-card {
+  width: 200px;
+  height: 500px;
+  border: 1px solid grey;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.project-image {
+  max-width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.big-profile {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  justify-content: space-between;
+  box-shadow: 100px, 10px, 10px, red;
+}
+
+.profile-image {
+  width: 20rem;
+  height: 20rem;
+  align-self: center;
+  padding-left: 100px;
+}
+
+.subtext {
+  color: red;
+}
+
+h4 {
+  display: flex;
+  padding: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
