@@ -8,6 +8,7 @@ h4 {
     flex-direction: row;
     padding: 1em;
     justify-content: space-between;
+    align-items: center;
     box-shadow: 100px, 10px, 10px, red;
 
 }
@@ -19,11 +20,16 @@ h4 {
     padding-left: 100px;
 }
 
-.subtext {
-    color: red;
-}
 
 h4 {
     display: flex;
+    flex-direction: column;
     padding: 100px;
+}
+
+.right-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
