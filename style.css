@@ -99,7 +99,7 @@ h1 {
 }
 footer {
   height: 1em;
-  border-top: 0.5px solid darkgrey;
+  border-top: 0.5px solid #d7d5d5;
   background-color: #eeeeee;
 }
 
@@ -126,39 +126,11 @@ svg:hover {
   filter: invert(0%);
 }
 
-.project-section {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #eeeeee;
-  padding: 1em;
-}
-
-.project-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.project-card {
-  width: 200px;
-  height: 500px;
-  border: 1px solid grey;
-}
-
-.subtext {
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.project-image {
-  max-width: 100%;
-  display: flex;
-  align-self: center;
-}
-
 h4 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
 }
 
 .big-profile {
@@ -177,12 +149,6 @@ h4 {
   padding-left: 100px;
 }
 
-h4 {
-  display: flex;
-  flex-direction: column;
-  padding: 100px;
-}
-
 .right-area {
   display: flex;
   flex-direction: column;
@@ -192,8 +158,8 @@ h4 {
 
 section {
   padding: 100px;
-  background: #fff;
-  height: 100vh;
+  background: #d7d5d5;
+  height: 75vh;
 }
 
 section .container {
@@ -206,11 +172,11 @@ section .container {
 
 section .container .box {
   position: relative;
-  width: 25%;
+  width: 15%;
   height: 100%;
   background: #fff;
   overflow: hidden;
-  border-right: 10px solid #fff;
+  border-right: 20px solid #d7d5d5;
 }
 
 section .container .box:last-child {
@@ -224,10 +190,6 @@ section .container .box .imgBx {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.9);
-  transition: 0.5s;
-  opacity: 0;
-  animation: slideRight 0.5s ease-in-out forwards;
-  animation-delay: calc(0.2s * var(--i));
 }
 
 section .container .box .imgBx.active {
@@ -252,32 +214,11 @@ section .container .box .imgBx img {
 }
 
 section .container .box .imgBx:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
-section .container .box .imgBx.active:hover img {
+section .container .box .imgBx.active:hover p img {
   transform: scale(1);
-}
-
-@keyframes slideRight {
-  0% {
-    transform: translateX(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

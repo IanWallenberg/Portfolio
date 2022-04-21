@@ -1,6 +1,8 @@
 h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
 }
 
 .big-profile {
@@ -20,12 +22,6 @@ h4 {
     padding-left: 100px;
 }
 
-
-h4 {
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
-}
 
 .right-area {
     display: flex;
