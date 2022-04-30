@@ -1,8 +1,8 @@
 h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    // display: flex;
-    // flex-direction: column;
-    // padding: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
     font-weight: 500;
 }
 
@@ -17,14 +17,9 @@ h4 {
 }
 
 .profile-image1 {
-    width: 25rem;
-    height: 20rem;
+    width: 25em;
+    height: 20em;
     border-radius: 50px
-}
-
-.linkToGitHub {
-    text-decoration: underline;
-    color: black;
 }
 
 .big-profile2 {
@@ -38,8 +33,8 @@ h4 {
 }
 
 .profile-image2 {
-    width: 25rem;
-    height: 20rem;
+    width: 25em;
+    height: 20em;
     border-radius: 50px
 }
 
@@ -54,8 +49,24 @@ h4 {
 }
 
 .profile-image3 {
-    width: 25rem;
-    height: 20rem;
+    width: 25em;
+    height: 20em;
+    border-radius: 50px
+}
+
+.big-profile4 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.profile-image4 {
+    width: 25em;
+    height: 20em;
     border-radius: 50px
 }
 
@@ -70,7 +81,14 @@ h4 {
 }
 
 .profile-image5 {
-    width: 25rem;
-    height: 20rem;
+    width: 25em;
+    height: 20em;
     border-radius: 50px
+}
+
+
+
+.linkToGitHub {
+    text-decoration: underline;
+    color: black;
 }
