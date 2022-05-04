@@ -15,5 +15,4 @@ npm install
 
 <br> 
 
-
 sass --watch style.scss style.css
