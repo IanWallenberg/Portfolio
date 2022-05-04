@@ -1,6 +1,6 @@
 # Portfolio-project
 
-This is my portfolio! <br>
+This is my portfolio!
 💼
 It is a work in progress, something I've created during my spare-time.
 
