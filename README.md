@@ -11,5 +11,9 @@ ____________
 Preparation before working on code:
 
 
-npm install for dependencies
+npm install
+
+<br> 
+
+
 sass --watch style.scss style.css
