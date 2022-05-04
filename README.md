@@ -10,4 +10,6 @@ ____________
 
 Preparation before working on code:
 
+
+npm install for dependencies
 sass --watch style.scss style.css
