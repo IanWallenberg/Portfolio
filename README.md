@@ -16,3 +16,6 @@ Preparation before working on code:
 npm install
 
 sass --watch style.scss style.css
+
+
+![Namnlöst](https://user-images.githubusercontent.com/90833604/167089429-3cca0f36-4a87-4200-905a-3730292776c3.png)
