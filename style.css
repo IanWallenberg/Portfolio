@@ -608,5 +608,29 @@ section .container .box .imgBx.active:hover p img {
     justify-content: space-between;
   }
 }
+@media (max-width: 480px) {
+  .text1 {
+    font-size: 20px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .mobile-visible {
+    font-size: 0.8em;
+    display: block;
+    margin: none;
+    position: absolute;
+    padding: none;
+    font-weight: 300;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #100f0f;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
