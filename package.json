@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Working on portfolio / trying out things",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IanWallenberg/Portfolio-project.git"
@@ -18,6 +17,8 @@
   "homepage": "https://github.com/IanWallenberg/Portfolio-project#readme",
   "dependencies": {
     "node-sass": "^7.0.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
