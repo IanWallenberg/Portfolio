@@ -30,7 +30,7 @@ const INFO = {
     {
       title: "Project 1 - Website",
       description:
-        "First project at Hyper Island, a website made with basic HTML, CSS, and JavaScript for my friend and coworker Bedros Kabranien. Having a client in mind I tried to create an easy website to showcase his qualities",
+        "A website made with basic HTML, CSS, and JavaScript for baker and client Bedros, showcasing his work of art and means of inquiry.",
       logoHTML:
         "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
       logoCSS:
@@ -74,34 +74,58 @@ const INFO = {
         "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
       logoCSS:
         "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Phaser_Logo.png",
       linkText: "View Project",
       link: "https://github.com/IanWallenberg/moderate-younger-brother-giovani-game",
     },
 
     {
-      title: "Project 5",
+      title: "Project 5 - React",
       description:
-        "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+        "Fifth project at Hyper Island, learning about React and JSX-syntax. Using an API for random advice, I fetched data from a database and displayed it with use of HTML and CSS. Usage of components, hooks, and routing in this project was very educational.",
       logoHTML:
         "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
       logoCSS:
         "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+      logoReact:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       linkText: "View Project",
-      link: "https://github.com",
+      link: "https://github.com/IanWallenberg/React-Project",
     },
     {
-      title: "Project 6",
+      title: "Project 6 - E-commerce MERN-stack",
       description:
-        "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+        "Sixth project at Hyper Island, learning about MERN-stack and ways of fetching backend data. I made a videogame website following a brief which included setting up a database, fetching data, creating an interface for products, single products, and a shopping cart.",
       logoHTML:
         "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
       logoCSS:
         "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+      logoReact:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      logoNode:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/archive/d/d9/20160518085101%21Node.js_logo.svg/120px-Node.js_logo.svg.png",
+      logoMongo:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/1200px-Antu_mongodb.svg.png",
       linkText: "View Project",
-      link: "https://github.com",
+      link: "https://github.com/IanWallenberg/Video-game-store",
+    },
+    {
+      title: "Project 7 - E-commerce",
+      description:
+        "Seventh project at Hyper Island, collaborating in a team. We created an E-commerce headphones website, while applying Agile methods, practicing TDD, CI/CD, Figma, and pair coding.",
+      logoHTML:
+        "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+      logoCSS:
+        "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+      logoReact:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      logoMongo:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/1200px-Antu_mongodb.svg.png",
+      linkText: "View Project",
+      link: "https://github.com/IanWallenberg/e-commerce-website",
     },
   ],
 };
