@@ -13,6 +13,8 @@ const Project = (props) => {
     logoReact,
     logoNode,
     logoMongo,
+    logoVue,
+    logoVuetify,
     title,
     description,
     linkText,
@@ -31,6 +33,8 @@ const Project = (props) => {
               <img src={logoReact} alt="logoReact" />
               <img src={logoNode} alt="logoNode" />
               <img src={logoMongo} alt="logoMongo" />
+              <img src={logoVue} alt="logoVue" />
+              <img src={logoVuetify} alt="logoVuetify" />
             </div>
             <div className="project-title">{title}</div>
             <div className="project-description">{description}</div>

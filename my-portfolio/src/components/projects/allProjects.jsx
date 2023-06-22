@@ -18,6 +18,8 @@ const AllProjects = () => {
             logoReact={project.logoReact}
             logoNode={project.logoNode}
             logoMongo={project.logoMongo}
+            logoVue={project.logoVue}
+            logoVuetify={project.logoVuetify}
             title={project.title}
             description={project.description}
             linkText={project.linkText}

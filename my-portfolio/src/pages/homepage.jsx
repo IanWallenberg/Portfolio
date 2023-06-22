@@ -80,8 +80,11 @@ const Homepage = () => {
             <div style={logoStyle}>
               <Logo width={logoSize} link={false} />
             </div>
+            <div className="homepage-title main-title">
+              {INFO.homepage.main}
+            </div>
           </div>
-
+          <br></br>
           <div className="homepage-container">
             <div className="homepage-first-area">
               <div className="homepage-first-area-left-side">
